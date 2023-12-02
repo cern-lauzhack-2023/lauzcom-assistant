@@ -194,7 +194,7 @@ export default function Conversation() {
         </div>
         <p className="text-gray-595959 w-[100vw] self-center bg-white p-5 text-center text-xs md:w-full">
           This is a chatbot that uses the GPT-3, Faiss and LangChain to answer
-          questions.
+          questions. It also uses the tears of other ISP providers that don't have this amazing retrieval system.
         </p>
       </div>
     </div>

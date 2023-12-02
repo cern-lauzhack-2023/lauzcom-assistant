@@ -1,5 +1,5 @@
 import { useMediaQuery } from './hooks';
-import DocsGPT3 from './assets/cute_docsgpt3.svg';
+import DocsGPT3 from './assets/swisscom-vector.svg';
 
 export default function Hero({ className = '' }: { className?: string }) {
   // const isMobile = window.innerWidth <= 768;
@@ -7,12 +7,12 @@ export default function Hero({ className = '' }: { className?: string }) {
   return (
     <div className={`mt-14 ${isMobile ? 'mb-2' : 'mb-12'}flex flex-col `}>
       <div className=" mb-2 flex items-center justify-center sm:mb-10">
-        <p className="mr-2 text-4xl font-semibold">DocsGPT</p>
-        <img className="mb-2 h-14" src={DocsGPT3} alt="DocsGPT" />
+        <p className="mr-2 text-4xl font-semibold"> LauzCom Assistance</p>
+        <img className="mb-2 h-14" src={DocsGPT3} alt="LauzCom" />
       </div>
       {isMobile ? (
         <p className="mb-3 text-center leading-6 text-black-1000">
-          Welcome to <span className="font-bold ">DocsGPT</span>, your technical
+          Welcome to <span className="font-bold ">LauzCom Assistance</span>, your technical
           documentation assistant! Start by entering your query in the input
           field below, and we&apos;ll provide you with the most relevant
           answers.
@@ -20,15 +20,10 @@ export default function Hero({ className = '' }: { className?: string }) {
       ) : (
         <>
           <p className="mb-3 text-center leading-6 text-black-1000">
-            Welcome to DocsGPT, your technical documentation assistant!
+            Welcome to LauzCom Assistance, your Swisscom revolutionising customer assistant!
           </p>
           <p className="mb-3 text-center leading-6 text-black-1000">
-            Enter a query related to the information in the documentation you
-            selected to receive
-            <br /> and we will provide you with the most relevant answers.
-          </p>
-          <p className="mb-3 text-center leading-6 text-black-1000">
-            Start by entering your query in the input field below and we will do
+            Start by entering your query about any of our products in the input field below and we will do
             the rest!
           </p>
         </>
@@ -53,9 +48,6 @@ export default function Hero({ className = '' }: { className?: string }) {
                   alt="lock"
                   className="h-[24px] w-[24px] "
                 />
-                <h2 className="mb-0 pl-1 text-lg font-bold">
-                  Chat with Your Data
-                </h2>
               </div>
             ) : (
               <>
@@ -64,23 +56,9 @@ export default function Hero({ className = '' }: { className?: string }) {
                   alt="lock"
                   className="h-[24px] w-[24px]"
                 />
-                <h2 className="mt-2 mb-3 text-lg font-bold">
-                  Chat with Your Data
-                </h2>
               </>
             )}
-            <p
-              className={
-                isMobile
-                  ? `w-[250px] text-center text-xs text-gray-500`
-                  : `w-[250px] text-xs text-gray-500`
-              }
-            >
-              DocsGPT will use your data to answer questions. Whether its
-              documentation, source code, or Microsoft files, DocsGPT allows you
-              to have interactive conversations and find answers based on the
-              provided data.
-            </p>
+
           </div>
         </div>
         {/* second */}
@@ -113,7 +91,7 @@ export default function Hero({ className = '' }: { className?: string }) {
                   : `w-[250px] text-xs text-gray-500`
               }
             >
-              The security of your data is our top priority. DocsGPT ensures the
+              The security of your data is our top priority. LauzCom Assistance ensures the
               utmost protection for your sensitive information. With secure data
               storage and privacy measures in place, you can trust that your
               data is kept safe and confidential.
@@ -158,7 +136,7 @@ export default function Hero({ className = '' }: { className?: string }) {
                   : `w-[250px] text-xs text-gray-500`
               }
             >
-              DocsGPT is built on open source principles, promoting transparency
+              LauzCom Assistance is built on open source principles, promoting transparency
               and collaboration. The source code is freely available, enabling
               developers to contribute, enhance, and customize the app to meet
               their specific needs.

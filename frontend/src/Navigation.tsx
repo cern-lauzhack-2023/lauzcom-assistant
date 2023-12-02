@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router-dom';
-import DocsGPT3 from './assets/cute_docsgpt3.svg';
+import DocsGPT3 from './assets/swisscom-vector.svg';
 import Documentation from './assets/documentation.svg';
 import Discord from './assets/discord.svg';
 import Arrow2 from './assets/dropdown-arrow.svg';
@@ -198,7 +198,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         >
           <div className="my-auto mx-4 flex cursor-pointer gap-1.5">
             <img className="mb-2 h-10" src={DocsGPT3} alt="" />
-            <p className="my-auto text-2xl font-semibold">DocsGPT</p>
+            <p className="my-auto text-2xl font-semibold">LauzCom Assistance</p>
           </div>
           <button
             className="float-right mr-5"
@@ -354,7 +354,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           </NavLink>
 
           <a
-            href="https://docs.docsgpt.co.uk/"
+            href="https://careers.cern/alljobs?title=computer+engineer&tid=All&tid_1=All"
             target="_blank"
             rel="noreferrer"
             className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100"

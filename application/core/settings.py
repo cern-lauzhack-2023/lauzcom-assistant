@@ -30,7 +30,7 @@ class Settings(BaseSettings):
     ELASTIC_USERNAME: str = None # username for elasticsearch
     ELASTIC_PASSWORD: str = None # password for elasticsearch
     ELASTIC_URL: str = None # url for elasticsearch
-    ELASTIC_INDEX: str = "docsgpt" # index name for elasticsearch
+    ELASTIC_INDEX: str = "lauzcom" # index name for elasticsearch
 
     # SageMaker config
     SAGEMAKER_ENDPOINT: str = None # SageMaker endpoint name

@@ -12,7 +12,7 @@ import ReactMarkdown from 'react-markdown';
 import copy from 'copy-to-clipboard';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/cjs/styles/prism';
-import DocsGPT3 from '../assets/cute_docsgpt3.svg';
+import DocsGPT3 from '../assets/swisscom-vector.svg';
 
 const DisableSourceFE = import.meta.env.VITE_DISABLE_SOURCE_FE || false;
 

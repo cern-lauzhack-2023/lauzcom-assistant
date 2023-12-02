@@ -34,7 +34,7 @@ export default function Upload({
     return (
       <div className="mt-5 flex flex-col items-center gap-2">
         <p className="text-xl tracking-[0.15px]">{title}...</p>
-        <p className="text-sm text-gray-2000">This may take several minutes</p>
+        <p className="text-sm text-gray-2000">This may take several minutes, meanwhile you can check the Swisscom offers 😎</p>
         <p className={`ml-5 text-xl text-red-400 ${isFailed ? '' : 'hidden'}`}>
           Over the token limit, please consider uploading smaller document
         </p>

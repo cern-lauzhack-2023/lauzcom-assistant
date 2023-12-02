@@ -14,7 +14,7 @@ const Logo = ({ height, width }) => {
     <div style={{ alignItems: 'center', display: 'flex', gap: '8px' }}>
        <Image src={CuteLogo} alt="DocsGPT logo" width={width} height={height} />
 
-      <span style={{ fontWeight: 'bold', fontSize: 18 }}>DocsGPT Docs</span>
+      <span style={{ fontWeight: 'bold', fontSize: 18 }}>LauzCom Assistance Docs</span>
 
 
     </div>
@@ -30,7 +30,7 @@ const config = {
     key: 'docs-launch',
     text: (
       <div className="flex justify-center items-center gap-2">
-        Welcome to the new DocsGPT 🦖 docs! 👋
+        Welcome to the new LauzCom Assistance 🇨🇭 docs! 👋
       </div>
     ),
   },
@@ -49,7 +49,7 @@ const config = {
     light: 212,
   },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © DocsGPT`,
+    text: `MIT ${new Date().getFullYear()} © LauzCom Assistance`,
   },
   logo() {
     return (
@@ -60,39 +60,39 @@ const config = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: `%s - DocsGPT Documentation`,
+      titleTemplate: `%s - LauzCom Assistance Documentation`,
     };
   },
 
   head() {
     const { frontMatter } = useConfig();
     const { theme } = useTheme();
-    const title = frontMatter?.title || 'Chat with your data with DocsGPT';
+    const title = frontMatter?.title || 'Chat with your data with LauzCom Assistance';
     const description =
       frontMatter?.description ||
-      'Use DocsGPT to chat with your data. DocsGPT is a GPT powered chatbot that can answer questions about your data.'
-    const image = '/cute-docsgpt.png';
+      'Use LauzCom Assistance to chat with your data. LauzCom Assistance is a GPT powered chatbot that can answer questions about your data.'
+    const image = '/logo_city_Lau.png';
 
-    const composedTitle = `${title} – DocsGPT Documentation`;
+    const composedTitle = `${title} – LauzCom Assistance Documentation`;
 
     return (
       <>
         <link
-          rel="apple-touch-icon"
+          rel="logo_city_Lau"
           sizes="180x180"
-          href={`/favicons/apple-touch-icon.png`}
+          href={`/favicons/logo_city_Lau.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={`/favicons/favicon-32x32.png`}
+          href={`/favicons/logo_city_Lau.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={`/favicons/favicon-16x16.png`}
+          href={`/favicons/logo_city_Lau.png`}
         />
         <meta name="theme-color" content="#ffffff" />
         <meta name="msapplication-TileColor" content="#00a300" />
@@ -111,7 +111,7 @@ const config = {
         <meta property="og:type" content="website" />
         <meta
           name="apple-mobile-web-app-title"
-          content="DocsGPT Documentation"
+          content="LauzCom Assistance Documentation"
         />
 
       </>
