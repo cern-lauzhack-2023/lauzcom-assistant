@@ -361,7 +361,7 @@ const Prompts: React.FC<PromptProps> = ({
         </p>
         <input
           type="text"
-          value={newPromptName}
+          value={'newPromptName'}
           placeholder="Active Prompt Name"
           className="w-full rounded-lg border-2 p-2"
           onChange={(e) => setNewPromptName(e.target.value)}

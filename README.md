@@ -13,12 +13,17 @@ The Lauzcom Assistant project is created by:
 
 ## Table of contents
 
+- [Architecture](#architecture)
 - [Quick start](#quick-start)
 - [Development environment](#development-environment)
   - [Run Mongo and Redis](#run-mongo-and-redis)
   - [Run the backend](#run-the-backend)
   - [Run the frontend](#run-the-frontend)
 - [License](#license)
+
+## Architecture
+
+![Architecture](./docs/images/architecture.png)
 
 ## Quick start
 
