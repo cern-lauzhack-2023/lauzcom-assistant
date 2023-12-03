@@ -4,6 +4,13 @@ Lauzcom Assistant is an interactive and user-friendly solution designed to provi
 
 Say goodbye to time-consuming manual searches, and let **Lauzcom Assistant** revolutionise your customer interactions.
 
+## Authors
+
+The Lauzcom Assistant project is created by:
+
+- [Carmen Marcos](https://github.com/carmenmarcos00)
+- [Daan Rosendal](https://github.com/daanrosendal)
+
 ## Table of contents
 
 - [Quick start](#quick-start)
