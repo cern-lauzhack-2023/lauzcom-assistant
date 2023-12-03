@@ -2,19 +2,18 @@ import { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router-dom';
 import DocsGPT3 from './assets/swisscom-vector.svg';
-import Documentation from './assets/documentation.svg';
-import Discord from './assets/discord.svg';
 import Arrow2 from './assets/dropdown-arrow.svg';
 import Expand from './assets/expand.svg';
 import Trash from './assets/trash.svg';
 import Github from './assets/github.svg';
 import Hamburger from './assets/hamburger.svg';
-import Info from './assets/info.svg';
 import SettingGear from './assets/settingGear.svg';
 import Add from './assets/add.svg';
 import UploadIcon from './assets/upload.svg';
 import { ActiveState } from './models/misc';
 import APIKeyModal from './preferences/APIKeyModal';
+import BackgroundImage from './path/to/your/background-image.jpg';
+
 import {
   selectApiKeyStatus,
   selectSelectedDocs,
