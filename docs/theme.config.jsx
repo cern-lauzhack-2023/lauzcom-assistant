@@ -30,7 +30,7 @@ const config = {
     key: 'docs-launch',
     text: (
       <div className="flex justify-center items-center gap-2">
-        Welcome to the new Lauzcom Assistant 🇨🇭 docs! 👋
+        Welcome to the Lauzcom Assistant 🇨🇭 docs! 👋
       </div>
     ),
   },

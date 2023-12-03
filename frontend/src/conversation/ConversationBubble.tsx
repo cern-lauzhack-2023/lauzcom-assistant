@@ -52,7 +52,7 @@ const ConversationBubble = forwardRef<
   if (type === 'QUESTION') {
     bubble = (
       <div ref={ref} className={`flex flex-row-reverse self-end ${className}`}>
-        <Avatar className="mt-2 text-2xl" avatar="🧑‍💻"></Avatar>
+        <Avatar className="mt-2 text-2xl" avatar="🖥️😄"></Avatar>
         <div className="mr-2 ml-10 flex items-center rounded-3xl bg-purple-30 p-3.5 text-white">
           <ReactMarkdown className="whitespace-pre-wrap break-all">
             {message}
@@ -244,8 +244,8 @@ const ConversationBubble = forwardRef<
                       ? 'rgba(125, 84, 209, 0.3)'
                       : '#EEEEEE'
                     : isLikeClicked
-                      ? 'rgba(125, 84, 209, 0.3)'
-                      : '#ffffff',
+                    ? 'rgba(125, 84, 209, 0.3)'
+                    : '#ffffff',
                 }}
               >
                 <Like
@@ -283,8 +283,8 @@ const ConversationBubble = forwardRef<
                       ? 'rgba(248, 113, 113, 0.3)'
                       : '#EEEEEE'
                     : isDislikeClicked
-                      ? 'rgba(248, 113, 113, 0.3)'
-                      : '#ffffff',
+                    ? 'rgba(248, 113, 113, 0.3)'
+                    : '#ffffff',
                 }}
               >
                 <Dislike
