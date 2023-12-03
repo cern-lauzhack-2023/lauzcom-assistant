@@ -196,10 +196,12 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         <div
           className={'visible mt-2 flex h-16 w-full justify-between md:h-12'}
         >
-          <div className="my-auto mx-4 flex cursor-pointer gap-1.5">
-            <img className="mb-2 h-10" src={DocsGPT3} alt="" />
-            <p className="my-auto text-2xl font-semibold">LauzCom Assistance</p>
-          </div>
+          <a href="/">
+            <div className="my-auto mx-4 flex cursor-pointer gap-1.5">
+              <img className="h-10" src={DocsGPT3} alt="" />
+              <p className="my-auto text-2xl font-semibold">Lauzcom</p>
+            </div>
+          </a>
           <button
             className="float-right mr-5"
             onClick={() => {
@@ -341,7 +343,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         </div>
 
         <div className="flex flex-col gap-2 border-b-2 py-2">
-          <NavLink
+          {/* <NavLink
             to="/about"
             className={({ isActive }) =>
               `my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 ${
@@ -351,31 +353,10 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           >
             <img src={Info} alt="info" className="ml-2 w-5" />
             <p className="my-auto text-sm text-eerie-black">About</p>
-          </NavLink>
+          </NavLink> */}
 
           <a
-            href="https://careers.cern/alljobs?title=computer+engineer&tid=All&tid_1=All"
-            target="_blank"
-            rel="noreferrer"
-            className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100"
-          >
-            <img src={Documentation} alt="documentation" className="ml-2 w-5" />
-            <p className="my-auto text-sm text-eerie-black">Documentation</p>
-          </a>
-          <a
-            href="https://discord.gg/WHJdfbQDR4"
-            target="_blank"
-            rel="noreferrer"
-            className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100"
-          >
-            <img src={Discord} alt="link" className="ml-2 w-5" />
-            <p className="my-auto text-sm text-eerie-black">
-              Visit our Discord
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/arc53/DocsGPT"
+            href="https://github.com/cern-lauzhack-2023/Lauzcom-Assistant"
             target="_blank"
             rel="noreferrer"
             className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100"

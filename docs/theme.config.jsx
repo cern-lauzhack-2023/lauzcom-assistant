@@ -14,7 +14,7 @@ const Logo = ({ height, width }) => {
     <div style={{ alignItems: 'center', display: 'flex', gap: '8px' }}>
        <Image src={CuteLogo} alt="DocsGPT logo" width={width} height={height} />
 
-      <span style={{ fontWeight: 'bold', fontSize: 18 }}>LauzCom Assistance Docs</span>
+      <span style={{ fontWeight: 'bold', fontSize: 18 }}>Lauzcom Assistant Docs</span>
 
 
     </div>
@@ -30,7 +30,7 @@ const config = {
     key: 'docs-launch',
     text: (
       <div className="flex justify-center items-center gap-2">
-        Welcome to the new LauzCom Assistance 🇨🇭 docs! 👋
+        Welcome to the new Lauzcom Assistant 🇨🇭 docs! 👋
       </div>
     ),
   },
@@ -49,7 +49,7 @@ const config = {
     light: 212,
   },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © LauzCom Assistance`,
+    text: `MIT ${new Date().getFullYear()} © Lauzcom Assistant`,
   },
   logo() {
     return (
@@ -60,20 +60,20 @@ const config = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: `%s - LauzCom Assistance Documentation`,
+      titleTemplate: `%s - Lauzcom Assistant Documentation`,
     };
   },
 
   head() {
     const { frontMatter } = useConfig();
     const { theme } = useTheme();
-    const title = frontMatter?.title || 'Chat with your data with LauzCom Assistance';
+    const title = frontMatter?.title || 'Chat with your data with Lauzcom Assistant';
     const description =
       frontMatter?.description ||
-      'Use LauzCom Assistance to chat with your data. LauzCom Assistance is a GPT powered chatbot that can answer questions about your data.'
+      'Use Lauzcom Assistant to chat with your data. Lauzcom Assistant is a GPT powered chatbot that can answer questions about your data.'
     const image = '/logo_city_Lau.png';
 
-    const composedTitle = `${title} – LauzCom Assistance Documentation`;
+    const composedTitle = `${title} – Lauzcom Assistant Documentation`;
 
     return (
       <>
@@ -111,7 +111,7 @@ const config = {
         <meta property="og:type" content="website" />
         <meta
           name="apple-mobile-web-app-title"
-          content="LauzCom Assistance Documentation"
+          content="Lauzcom Assistant Documentation"
         />
 
       </>
