@@ -13,6 +13,7 @@ The Lauzcom Assistant project is created by:
 
 ## Table of contents
 
+- [Demo](#demo)
 - [Architecture](#architecture)
 - [Quick start](#quick-start)
 - [Development environment](#development-environment)
@@ -20,6 +21,10 @@ The Lauzcom Assistant project is created by:
   - [Run the backend](#run-the-backend)
   - [Run the frontend](#run-the-frontend)
 - [License](#license)
+
+## Demo
+
+[Demo video](https://www.youtube.com/watch?v=P4xqU10uZqA)
 
 ## Architecture
 
